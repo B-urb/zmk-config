@@ -19,7 +19,7 @@ bindings
     = <&macro_press &mo L_MOD &kp LSHFT>
     , <&macro_pause_for_release>
     , <&macro_release &mo L_MOD &kp LSHFT>
-    
+    ;
         };
     };
 	keymap {
