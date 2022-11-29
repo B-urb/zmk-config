@@ -34,7 +34,7 @@ bindings
 	&kp LSHFT        &kp Z &kp X &kp C &kp V &kp B   &kp LALT &none                         &mo L_TEXT          &none       &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
 	                    &kp PSCRN &kp L_TEXT &mt LALT SPACE &mt LCTRL BSPC &mt LGUI DEL                 &kp RGUI &mt RCTRL RET  &mt RALT SPACE  &kp RALT &mt C_MUTE C_PLAY_PAUSE
 			>;
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
 		nums_layer {
 			bindings = <
