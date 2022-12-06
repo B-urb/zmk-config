@@ -49,7 +49,7 @@ bindings
 			bindings = <
 	&kp F11   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                              &kp RG(N1)    &kp RG(N2)    &kp RG(N3)    &kp RG(N4)    &kp RG(N5)   &kp F12
 	&trans   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                              &kp RG(LEFT)    &kp RG(DOWN)    &kp RG(UP)   &kp RG(RIGHT)    &kp N0    &trans
-	&trans    &trans    &trans    &trans    &kp EQUAL &trans    &trans    &trans      &trans    &trans    &kp RG(F)   &kp RG(Q) &kp RG(R)    &kp RG(S)    &kp RG(E)    &trans  
+	&trans    &trans    &trans    &trans    &kp EQUAL &trans    &trans    &trans      &trans    &trans    &kp RG(F)   &kp RG(LS(Q)) &kp RG(R)    &kp RG(S)    &kp RG(E)    &trans  
 	                              &trans    &trans   &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    
 			>;		};
 		
