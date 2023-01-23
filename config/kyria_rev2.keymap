@@ -10,8 +10,22 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/rgb.h>
 
+#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
 / {
+    behaviors {
+        as: auto_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "AUTO_SHIFT";
+            #binding-cells = <2>;
+            tapping_term_ms = <135>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+    };
 macros {  
+#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
+
 windowm: windowm {
             label = "windowm";
             compatible = "zmk,behavior-macro";
@@ -47,7 +61,7 @@ bindings
 	
 		mod_layer {
 			bindings = <
-	&kp F11   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                              &kp RG(N1)    &kp RG(N2)    &kp RG(N3)    &kp RG(N4)    &kp RG(N5)   &kp F12
+	&kp F11   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                              &kp AS(RG(N1))    &kp AS(RG(N2))    &kp AS(RG(N3))   &kp AS(RG(N4))    &kp AS(RG(N5))   &kp F12
 	&trans   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                              &kp RG(LEFT)    &kp RG(DOWN)    &kp RG(UP)   &kp RG(RIGHT)    &kp N0    &trans
 	&trans    &trans    &trans    &trans    &kp EQUAL &trans    &trans    &trans      &trans    &trans    &kp RG(F)   &kp RS(RG(Q)) &kp RG(R)    &kp RG(S)    &kp RG(E)    &trans  
 	                              &trans    &trans   &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    
