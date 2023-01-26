@@ -61,7 +61,7 @@ bindings
 	
 		mod_layer {
 			bindings = <
-	&kp F11   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                              &kp AS(RG(N1))    &kp AS(RG(N2))    &kp AS(RG(N3))   &kp AS(RG(N4))    &kp AS(RG(N5))   &kp F12
+	&kp F11   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                               AS(RG(N1))    AS(RG(N2))    AS(RG(N3))   AS(RG(N4))    AS(RG(N5))   &kp F12
 	&trans   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                              &kp RG(LEFT)    &kp RG(DOWN)    &kp RG(UP)   &kp RG(RIGHT)    &kp N0    &trans
 	&trans    &trans    &trans    &trans    &kp EQUAL &trans    &trans    &trans      &trans    &trans    &kp RG(F)   &kp RS(RG(Q)) &kp RG(R)    &kp RG(S)    &kp RG(E)    &trans  
 	                              &trans    &trans   &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    
