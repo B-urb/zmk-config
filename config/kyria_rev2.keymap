@@ -72,7 +72,7 @@ bindings
 			bindings = <
 	&trans    &trans    &trans    &trans    &trans    &trans                                              &kp HOME &kp UP  &kp PG_DN &kp END   &trans    &trans  
 	&trans          &trans         &trans          &kp UP          &trans          &trans                                                    &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_UP  &trans    &trans  
-	&trans      &tans          &kp LEFT          &kp DOWN         &kp RIGHT          &trans          &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans  
+	&trans      &trans          &kp LEFT          &kp DOWN         &kp RIGHT          &trans          &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans  
 	                                                &trans          &trans          &trans          &trans    &trans      &trans    &trans    &trans    &trans    &trans    
 			>;
 		};
