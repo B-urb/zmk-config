@@ -75,14 +75,6 @@
 			>;	
 		};
 		
-		text_layer {
-			bindings = <
-	&trans    &trans    &trans    &trans    &trans    &trans                                              &kp HOME &kp UP  &kp PG_DN &kp END   &trans    &trans  
-	&trans          &trans         &trans          &kp UP          &trans          &trans                    &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_UP  &trans    &trans  
-	&trans      &trans          &kp LEFT          &kp DOWN         &kp RIGHT          &trans          &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans  
-	                                                &trans          &trans          &trans          &trans    &trans      &trans    &trans    &trans    &trans    &trans    
-			>;
-		};
 		control_layer {
 			bindings = <
 	&bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &out OUT_TOG                                              &kp HOME &kp UP  &kp PG_DN &kp END   &trans    &trans  
@@ -91,14 +83,6 @@
 	                                                &trans          &trans          &trans          &trans    &trans      &trans    &trans    &trans    &trans    &trans    
 			>;
 		};
-		mod_old_layer {
-			bindings = <
-	&kp F11   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                               AS(RG(N1))    AS(RG(N2))    AS(RG(N3))   AS(RG(N4))    AS(RG(N5))   AS(RG(N6))
-	&trans   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                              &kp RG(LEFT)    &kp RG(DOWN)    &kp RG(UP)   &kp RG(RIGHT)    &kp N0    &trans
-	&trans    &trans    &trans    &trans    &kp EQUAL &trans    &trans    &trans      &trans    &trans    &kp RG(F)   &kp RS(RG(Q)) &kp RG(R)    &kp RG(S)    &kp RG(E)    &trans  
-	                              &trans    &trans   &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    
-			>;	
-			};
 		ide_layer {
 			bindings = <
 	&trans   &trans   &kp RBKT  &kp UP  &kp RBRC      &kp N5                                      &trans  &kp RBRC   &trans   &kp RBKT    &trans   &trans
