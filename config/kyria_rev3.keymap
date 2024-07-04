@@ -33,10 +33,10 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB    &kp Q        &kp W       &kp E       &kp R        &kp T                                                  &kp Y    &kp U        &kp I           &kp O       &kp P                &kp BSLH
-&kp ESC    &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &kp G                                                  &kp H    &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z        &kp X       &kp C       &kp V        &kp B    &kp LSHFT  &kp LSHFT    &mo 1      &kp LSHFT  &kp N    &kp M        &kp COMMA       &kp DOT     &kp FSLH             &kp RCTRL
-                                    &kp LGUI    &kp DEL      &kp RET  &kp BSPC   &lt 1 SPACE  &lt 2 ESC  &kp RET    &kp TAB  &kp BSPC     &kp RALT
+&kp TAB    &kp Q        &kp W       &kp E       &kp R        &kp T        &kp Y    &kp U        &kp I           &kp O       &kp P                &kp BSLH
+&kp ESC    &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &kp G        &kp H    &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z        &kp X       &kp C       &kp V        &kp B        &kp N    &kp M        &kp COMMA       &kp DOT     &kp FSLH             &kp RSHFT
+                                    &kp TAB     &kp BSPC     &kp SPACE    &kp ESC  &kp RET      &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -50,10 +50,10 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&kp TAB    &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                                     &kp LCTRL  &kp LS(AMPS)  &kp LS(STAR)  &kp MINUS  &kp EQUAL  &kp GRAVE
-&kp ESC    &kp N1        &kp N2      &kp N3         &kp N4        &kp N5                                            &kp N6     &kp N7        &kp N8        &kp N9     &kp N0     &kp SQT
-&kp RSHFT  &kp F1        &kp F2      &kp F3         &kp F4        &kp F5         &trans  &trans     &trans  &trans  &kp F6     &kp F7        &kp F8        &kp F9     &kp F10    &kp F11
-                                     &trans         &trans        &trans         &trans  &kp SPACE  &trans  &trans  &trans     &trans        &trans
+&kp TAB    &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LCTRL  &kp LS(AMPS)  &kp LS(STAR)  &kp MINUS  &kp EQUAL  &kp GRAVE
+&kp ESC    &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6     &kp N7        &kp N8        &kp N9     &kp N0     &kp SQT
+&kp RSHFT  &kp F1        &kp F2      &kp F3         &kp F4        &kp F5           &trans     &trans        &trans        &trans     &kp F6     &kp F7
+                                     &kp F8         &kp F9        &kp F10          &kp F11    &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -62,10 +62,10 @@
 
         upper {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "upper";
@@ -73,10 +73,10 @@
 
         layer_3 {
             bindings = <
-&trans            &kp RG(RS(Q))  &kp RG(E)  &kp RG(R)  &trans  &trans                                  &kp LC(LA(LG(LS(N1))))    &kp LC(LA(LG(LS(N2))))    &kp LC(LA(LG(LS(N3))))  &kp LS(LC(LA(LG(N4))))     &kp LC(LA(LG(LS(N5))))  &kp LS(LC(LA(LG(N6))))
-&kp LS(LC(LALT))  &kp LC(LSHFT)  &kp RG(S)  &trans     &trans  &trans                                  &kp LC(LA(LG(LS(H))))     &kp LC(LA(LG(LS(J))))     &kp LC(LA(LG(LS(K))))   &kp LC(LA(LG(LS(L))))      &kp LC(LSHFT)           &kp LCTRL
-&trans            &trans         &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(LG(LS(LEFT))))  &kp LC(LA(LG(LS(DOWN))))  &kp LC(LA(LG(LS(UP))))  &kp LC(LA(LG(LS(RIGHT))))  &trans                  &trans
-                                            &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans                    &trans                    &trans
+&trans            &kp RG(RS(Q))  &kp RG(E)  &kp RG(R)               &trans                     &trans    &kp LC(LA(LG(LS(N1))))  &kp LC(LA(LG(LS(N2))))  &kp LC(LA(LG(LS(N3))))  &kp LS(LC(LA(LG(N4))))  &kp LC(LA(LG(LS(N5))))    &kp LS(LC(LA(LG(N6))))
+&kp LS(LC(LALT))  &kp LC(LSHFT)  &kp RG(S)  &trans                  &trans                     &trans    &kp LC(LA(LG(LS(H))))   &kp LC(LA(LG(LS(J))))   &kp LC(LA(LG(LS(K))))   &kp LC(LA(LG(LS(L))))   &kp LC(LSHFT)             &kp LCTRL
+&trans            &trans         &trans     &trans                  &trans                     &trans    &trans                  &trans                  &trans                  &trans                  &kp LC(LA(LG(LS(LEFT))))  &kp LC(LA(LG(LS(DOWN))))
+                                            &kp LC(LA(LG(LS(UP))))  &kp LC(LA(LG(LS(RIGHT))))  &trans    &trans                  &trans                  &trans
             >;
         };
     };
