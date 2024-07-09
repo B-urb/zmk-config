@@ -33,7 +33,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp ESC  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &kp G  &kp H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp TAB  &kp BSPC  &kp SPACE  &lt 3 ENTER  &kp RET
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp ESC  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &kp G  &kp H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp TAB  &kp BSPC  &lt 1 SPACE  &lt 3 ENTER  &lt 2 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -47,7 +47,7 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&kp TAB  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LCTRL  &kp LS(AMPS)  &kp LS(STAR)  &kp MINUS  &kp EQUAL  &kp GRAVE  &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp SQT  &kp RSHFT  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &trans  &trans  &trans  &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans
+&kp TAB  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LCTRL  &kp LS(AMPS)  &kp LS(STAR)  &kp MINUS  &kp EQUAL  &kp GRAVE  &kp ESC  &hm LCTRL NUMBER_1  &hm LALT NUMBER_2  &hm LGUI NUMBER_3  &hm LSHFT NUMBER_4  &kp N5  &kp N6  &hm RSHFT N7  &hm LGUI N8  &hm RALT N9  &hm RCTRL N0  &kp SQT  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp F8  &kp DELETE  &kp F10  &kp F11  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -56,7 +56,7 @@
 
         upper {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp UP  &kp RIGHT  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "upper";
