@@ -56,7 +56,7 @@
 
         upper {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT  &kp UP  &kp RIGHT  &kp RIGHT  &trans  &trans  &kp RSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans  &trans  &trans  &trans  &kp LGUI  &kp RALT  &kp RCTRL  &kp RSHFT  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &trans  &trans  &kp RSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans  &trans  &trans  &trans  &kp LGUI  &kp RALT  &kp RCTRL  &kp RSHFT  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "upper";
