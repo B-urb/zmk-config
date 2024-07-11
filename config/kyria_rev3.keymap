@@ -75,7 +75,7 @@
             bindings = <
 &trans            &kp RG(RS(Q))  &kp RG(E)  &kp RG(R)  &trans  &trans                                  &kp LC(LA(LG(LS(N1))))    &kp LC(LA(LG(LS(N2))))    &kp LC(LA(LG(LS(N3))))  &kp LS(LC(LA(LG(N4))))     &kp LC(LA(LG(LS(N5))))  &kp LS(LC(LA(LG(N6))))
 &kp LS(LC(LALT))  &kp LC(LSHFT)  &kp RG(S)  &trans     &trans  &trans                                  &kp LC(LA(LG(LS(H))))     &kp LC(LA(LG(LS(J))))     &kp LC(LA(LG(LS(K))))   &kp LC(LA(LG(LS(L))))      &kp LC(LSHFT)           &kp LCTRL
-&trans            &trans         &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(LG(LS(LEFT))))  &kp LC(LA(LG(LS(DOWN))))  &kp LC(LA(LG(LS(UP))))  &kp LC(LA(LG(LS(RIGHT))))  &trans                  &trans
+&trans            &trans         &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(LG(LS(LEFT))))  &kp LC(LA(LG(LS(DOWN))))  &kp LC(LA(LG(LS(UP))))  &kp LC(LA(LG(LS(RIGHT))))  &trans                  &kp RSHFT
                                             &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans                    &trans                    &trans
             >;
         };
