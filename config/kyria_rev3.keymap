@@ -36,7 +36,7 @@
 &kp TAB    &kp Q        &kp W       &kp E       &kp R        &kp T                                                      &kp Y      &kp U        &kp I           &kp O       &kp P                &kp BSLH
 &kp ESC    &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &kp G                                                      &kp H      &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z        &kp X       &kp C       &kp V        &kp B    &kp LSHFT  &kp LSHFT    &mo 1        &kp LSHFT    &kp N      &kp M        &kp COMMA       &kp DOT     &kp FSLH             &kp RCTRL
-                                    &kp LGUI    &kp DEL      &kp RET  &kp BSPC   &lt 1 SPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 ESC  &kp BSPC     &kp RALT
+                                    &kp LGUI    &kp DEL      &kp RET  &kp BSPC   &lt 1 SPACE  &lt 1 SPACE  &lt 2 ENTER  &lt 3 ESC  &kp BSPC     &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -50,25 +50,14 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&kp TAB  &kp LS(EXCL)        &kp LS(AT)         &kp LS(POUND)      &kp LS(DLLR)  &kp LS(PRCNT)                                      &kp LCTRL  &kp LS(AMPS)  &kp LS(STAR)  &kp MINUS    &kp EQUAL     &kp GRAVE
-&kp ESC  &hm LCTRL NUMBER_1  &hm LALT NUMBER_2  &hm LGUI NUMBER_3  &hm LSHFT N4  &kp N5                                             &kp N6     &hm RSHFT N7  &hm LGUI N8   &hm RALT N9  &hm RCTRL N0  &kp SQT
-&kp F1   &kp F2              &kp F3             &kp F4             &kp F5        &kp F6         &kp F7  &kp F8     &kp F9  &kp F10  &kp F7     &kp F8        &kp F9        &kp F10      &kp F11       &kp F12
-                                                &trans             &trans        &trans         &trans  &kp SPACE  &trans  &trans   &trans     &trans        &trans
+&kp TAB  &kp LS(EXCL)        &kp LS(AT)         &kp LS(POUND)      &kp LS(DLLR)  &kp LS(PRCNT)                                             &kp LCTRL  &kp LS(AMPS)  &kp LS(STAR)  &kp MINUS    &kp EQUAL     &kp GRAVE
+&kp ESC  &hm LCTRL NUMBER_1  &hm LALT NUMBER_2  &hm LGUI NUMBER_3  &hm LSHFT N4  &kp N5                                                    &kp N6     &hm RSHFT N7  &hm LGUI N8   &hm RALT N9  &hm RCTRL N0  &kp SQT
+&kp F1   &kp F2              &kp F3             &kp F4             &kp F5        &kp F6         &kp F7         &kp F8     &kp F9  &kp F10  &kp F7     &kp F8        &kp F9        &kp F10      &kp F11       &kp F12
+                                                &trans             &trans        &trans         &kp BACKSPACE  &kp SPACE  &trans  &trans   &trans     &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
             label = "lower";
-        };
-
-        upper {
-            bindings = <
-&trans          &trans           &trans            &trans             &trans                &trans                                                  &trans          &trans        &trans        &trans     &trans     &trans
-&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN      &kp RIGHT  &trans     &trans
-&kp RSHFT       &kp LCTRL        &kp LALT          &kp LEFT_GUI       &trans                &trans                 &trans   &trans  &trans  &trans  &trans          &trans        &kp LEFT_GUI  &kp RALT   &kp RCTRL  &kp RSHFT
-                                                   &trans             &trans                &trans                 &kp DEL  &trans  &trans  &trans  &trans          &trans        &trans
-            >;
-
-            label = "upper";
         };
 
         Windowman {
@@ -78,6 +67,26 @@
 &trans            &trans         &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &kp LC(LA(LG(LS(LEFT))))  &kp LC(LA(LG(LS(DOWN))))  &kp LC(LA(LG(LS(UP))))  &kp LC(LA(LG(LS(RIGHT))))  &trans                  &kp RSHFT
                                             &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans                    &trans                    &trans
             >;
+        };
+
+        upper {
+            bindings = <
+&trans          &trans           &trans            &kp TILDE          &trans                &trans                                                  &trans          &trans        &trans        &trans     &trans     &trans
+&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN      &kp RIGHT  &trans     &trans
+&kp RSHFT       &kp LCTRL        &kp LALT          &kp LEFT_GUI       &trans                &trans                 &trans   &trans  &trans  &trans  &trans          &trans        &kp LEFT_GUI  &kp RALT   &kp RCTRL  &kp RSHFT
+                                                   &trans             &trans                &trans                 &kp DEL  &trans  &trans  &trans  &trans          &trans        &trans
+            >;
+
+            label = "upper";
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        double {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
