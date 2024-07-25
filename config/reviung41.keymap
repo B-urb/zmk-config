@@ -52,7 +52,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp ESC  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &hm_layer 3 G  &hm_layer 3 H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &lt 3 TAB  &kp BSPC  &lt 1 SPACE  &lt 2 ENTER  &lt 3 ESCAPE
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp ESC  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &hm_layer 4 G  &hm_layer 4 H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &lt 4 TAB  &kp BSPC  &lt 1 SPACE  &lt 2 ENTER  &lt 4 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -85,6 +85,13 @@
             >;
 
             label = "upper";
+        };
+
+        layer_4 {
+            label = "upper";
+            bindings = <
+&trans  &trans  &trans  &kp TILDE  &kp TILDE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &trans  &trans  &kp RSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans  &capswordus  &trans  &trans  &kp LGUI  &kp RALT  &kp RCTRL  &kp RSHFT  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 
