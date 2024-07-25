@@ -27,6 +27,18 @@
             #binding-cells = <0>;
             continue-list = <MINUS UNDERSCORE>;
         };
+
+        hm_layer: hm_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HM_LAYER";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <50>;
+            flavor = "balanced";
+        };
     };
 
     keymap {
@@ -40,7 +52,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp ESC  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &kp G  &kp H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp TAB  &kp BSPC  &lt 1 SPACE  &lt 2 ENTER  &lt 3 ESCAPE
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp ESC  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &hm_layer 3 G  &hm_layer 3 H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &lt 3 TAB  &kp BSPC  &lt 1 SPACE  &lt 2 ENTER  &lt 3 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
