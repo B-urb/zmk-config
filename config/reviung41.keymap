@@ -84,7 +84,7 @@
 
         nav {
             bindings = <
-&trans  &kp RG(RS(Q))  &kp RG(E)  &kp RG(E)  &kp RG(R)  &trans  &kp LC(LA(LG(LS(N1))))  &kp LC(LA(LG(LS(N2))))  &kp LC(LA(LG(LS(N3))))  &kp LS(LC(LA(LG(N4))))  &kp LC(LA(LG(LS(N5))))  &kp LS(LC(LA(LG(N6))))  &kp LS(LC(LALT))  &kp LC(LSHFT)  &kp RG(S)  &kp RC(TAB)  &kp RG(F)  &kp RG(RS(TAB))  &kp LC(LA(LG(LS(H))))  &kp LC(LA(LG(LS(J))))  &kp LC(LA(LG(LS(K))))  &kp LC(LA(LG(LS(L))))  &kp LC(LSHFT)  &kp LCTRL  &trans  &trans  &trans  &kp RC(RS(TAB))  &kp RG(TAB)  &kp RG(RS(TAB))  &kp LC(LA(LG(LS(LEFT))))  &kp LC(LA(LG(LS(UP_ARROW))))  &kp LC(LA(LS(DOWN_ARROW)))  &kp LC(LA(LG(LS(RIGHT))))  &kp LC(LA(LG(LS(LEFT))))  &kp RSHFT  &kp LC(LA(LG(LS(UP))))  &kp LC(LA(LG(LS(RIGHT))))  &trans  &trans  &trans
+&trans  &kp RG(RS(Q))  &kp RG(E)  &kp RG(E)  &kp RG(R)  &trans  &kp LC(LA(LG(LS(N1))))  &kp LC(LA(LG(LS(N2))))  &kp LC(LA(LG(LS(N3))))  &kp LS(LC(LA(LG(N4))))  &kp LC(LA(LG(LS(N5))))  &kp LS(LC(LA(LG(N6))))  &kp LS(LC(LALT))  &kp LC(LSHFT)  &kp RG(S)  &kp RC(TAB)  &kp RG(F)  &kp RA(TAB)  &kp LC(LA(LG(LS(H))))  &kp LC(LA(LG(LS(J))))  &kp LC(LA(LG(LS(K))))  &kp LC(LA(LG(LS(L))))  &kp LC(LSHFT)  &kp LCTRL  &trans  &trans  &trans  &kp RC(RS(TAB))  &kp RG(TAB)  &kp RA(RS(TAB))  &kp LC(LA(LG(LS(LEFT))))  &kp LC(LA(LG(LS(UP_ARROW))))  &kp LC(LA(LS(DOWN_ARROW)))  &kp LC(LA(LG(LS(RIGHT))))  &kp LC(LA(LG(LS(LEFT))))  &kp RSHFT  &kp LC(LA(LG(LS(UP))))  &kp LC(LA(LG(LS(RIGHT))))  &trans  &trans  &trans
             >;
 
             label = "nav";
