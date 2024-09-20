@@ -61,7 +61,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB    &kp Q        &kp W       &kp E         &kp R        &kp T                                                            &kp Y          &kp U        &kp I           &kp O       &kp P                &kp BSLH
+&lt 3 TAB  &kp Q        &kp W       &kp E         &kp R        &kp T                                                            &kp Y          &kp U        &kp I           &kp O       &kp P                &kp BSLH
 &kp CAPS   &hm LCTRL A  &hm LALT S  &hm LGUI D    &hm RSHFT F  &hm_layer 4 G                                                    &hm_layer 4 H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z        &kp X       &kp C         &kp V        &kp B          &kp LSHFT  &kp LSHFT    &mo 1        &kp LSHFT    &kp N          &kp M        &kp COMMA       &kp DOT     &kp FSLH             &kp TILDE
                                     &kp CAPSLOCK  &kp CAPS     &lt 4 CAPS     &kp BSPC   &lt 1 SPACE  &lt 1 SPACE  &lt 2 ENTER  &lt 3 TAB      &kp BSPC     &kp RALT
@@ -101,7 +101,7 @@
 
         upper {
             bindings = <
-&trans          &trans           &trans            &kp TILDE          &trans                &trans                                                  &trans          &trans        &trans        &trans     &trans     &trans
+&kp F1          &kp F2           &kp F3            &kp F4             &kp F5                &kp F6                                                  &kp F7          &kp F8        &kp F9        &kp F10    &kp F11    &kp F12
 &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN      &kp RIGHT  &trans     &trans
 &kp RSHFT       &kp LCTRL        &kp LALT          &kp LEFT_GUI       &trans                &capswordminus         &trans   &trans  &trans  &trans  &trans          &trans        &kp LEFT_GUI  &kp RALT   &kp RCTRL  &kp RSHFT
                                                    &trans             &trans                &trans                 &kp DEL  &trans  &trans  &trans  &trans          &trans        &trans
