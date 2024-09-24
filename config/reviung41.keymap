@@ -61,7 +61,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp CAPSLOCK  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &hm_layer 4 G  &hm_layer 4 H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp CAPS  &kp BSPC  &lt 1 SPACE  &lt 2 ENTER  &lt 4 ESCAPE
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp CAPSLOCK  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &hm_layer 4 G  &hm_layer 4 H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp TILDE  &kp CAPS  &kp BSPC  &lt 1 SPACE  &lt 2 ENTER  &kp TAB
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -75,7 +75,7 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&kp TAB  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp CARET  &kp LS(AMPS)  &kp LS(STAR)  &kp MINUS  &kp EQUAL  &kp GRAVE  &trans  &hm LCTRL NUMBER_1  &hm LALT NUMBER_2  &hm LGUI NUMBER_3  &hm LSHFT NUMBER_4  &kp N5  &kp N6  &hm RSHFT N7  &hm LGUI N8  &hm RALT N9  &hm RCTRL N0  &kp SQT  &kp CAPSLOCK  &kp N1  &kp N2  &kp N3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F7  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT  &kp RBKT  &kp DOUBLE_QUOTES  &trans  &kp DELETE  &trans  &trans  &trans
+&kp TAB  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp CARET  &kp LS(AMPS)  &kp LS(STAR)  &kp MINUS  &kp EQUAL  &kp GRAVE  &trans  &hm LCTRL NUMBER_1  &hm LALT NUMBER_2  &hm LGUI NUMBER_3  &hm RSHFT NUMBER_4  &kp N5  &kp N6  &hm RSHFT N7  &hm LGUI N8  &hm RALT N9  &hm RCTRL N0  &kp SQT  &kp CAPSLOCK  &kp N1  &kp N2  &kp N3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F7  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT  &kp RBKT  &kp DOUBLE_QUOTES  &trans  &kp DELETE  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
