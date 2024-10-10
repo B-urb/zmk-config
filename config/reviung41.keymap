@@ -123,7 +123,7 @@
         layer_5 {
             label = "lower_new";
             bindings = <
-&kp TAB  &kp N7  &kp N8  &kp N9  &kp LEFT_BRACKET  &kp LS(PRCNT)  &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp MINUS  &kp EQUAL  &kp GRAVE  &trans  &hm LCTRL NUMBER_4  &hm LALT N5  &hm LGUI NUMBER_6  &hm RSHFT NUMBER_4  &kp N5  &kp N6  &hm RSHFT N7  &hm LGUI N8  &hm RALT N9  &hm RCTRL N0  &kp SQT  &kp N0  &kp N1  &kp N2  &kp N3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp DOUBLE_QUOTES  &trans  &kp DELETE  &trans  &kp CAPS  &trans
+&kp TAB  &kp UNDER  &kp MINUS  &kp ASTERISK  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N7  &kp N8  &kp N9  &kp PLUS  &kp GRAVE  &trans  &hm LCTRL EQUAL  &hm LALT CARET  &hm LGUI PERCENT  &hm RSHFT DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &hm RSHFT NUMBER_4  &hm LGUI N5  &hm RALT NUMBER_6  &hm RCTRL N0  &kp SQT  &kp N0  &kp DOUBLE_QUOTES  &kp HASH  &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOUBLE_QUOTES  &kp N0  &trans  &kp DELETE  &trans  &kp CAPS  &trans
             >;
 
             sensor-bindings =
