@@ -76,7 +76,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp ESC  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &hm_layer 4 G  &hm_layer 4 H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp CAPS  &kp BSPC  &lt 5 SPACE  &lt 2 ENTER  &lt 4 ESCAPE
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp CAPS  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &hm_layer 4 G  &hm_layer 4 H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp CAPS  &kp BSPC  &lt 5 SPACE  &lt 2 ENTER  &lt 4 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -123,7 +123,7 @@
         layer_5 {
             label = "lower_new";
             bindings = <
-&kp TAB  &kp N7  &kp N8  &kp N9  &kp LEFT_BRACKET  &kp LS(PRCNT)  &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp MINUS  &kp EQUAL  &kp GRAVE  &trans  &hm LCTRL NUMBER_4  &hm LALT N5  &hm LGUI NUMBER_6  &hm RSHFT NUMBER_4  &kp N5  &kp N6  &hm RSHFT N7  &hm LGUI N8  &hm RALT N9  &hm RCTRL N0  &kp SQT  &kp CAPSLOCK  &kp N1  &kp N2  &kp N3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp DOUBLE_QUOTES  &trans  &kp DELETE  &trans  &kp CAPS  &trans
+&kp TAB  &kp N7  &kp N8  &kp N9  &kp LEFT_BRACKET  &kp LS(PRCNT)  &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp MINUS  &kp EQUAL  &kp GRAVE  &trans  &hm LCTRL NUMBER_4  &hm LALT N5  &hm LGUI NUMBER_6  &hm RSHFT NUMBER_4  &kp N5  &kp N6  &hm RSHFT N7  &hm LGUI N8  &hm RALT N9  &hm RCTRL N0  &kp SQT  &kp N0  &kp N1  &kp N2  &kp N3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp DOUBLE_QUOTES  &trans  &kp DELETE  &trans  &kp CAPS  &trans
             >;
 
             sensor-bindings =
