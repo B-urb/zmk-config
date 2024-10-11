@@ -119,6 +119,20 @@
                                                    &trans             &trans                &trans                 &kp DEL  &trans  &trans  &trans  &trans          &trans        &trans
             >;
         };
+
+        layer_5 {
+            label = "lower_new";
+            bindings = <
+&kp TAB  &kp UNDERSCORE          &kp MINUS       &kp ASTERISK      &kp AMPERSAND           &kp LBKT                                                          &kp RBKT               &kp N7              &kp N8            &kp N9             &kp PLUS           &kp GRAVE
+&trans   &hm LEFT_CONTROL EQUAL  &hm LALT CARET  &hm LCMD PERCENT  &hm RIGHT_SHIFT DOLLAR  &kp LEFT_PARENTHESIS                                              &kp RIGHT_PARENTHESIS  &hm RSHFT NUMBER_4  &hm RIGHT_GUI N5  &hm RALT NUMBER_6  &hm RCTRL N0       &kp SQT
+&kp N0   &kp DOUBLE_QUOTES       &kp HASH        &kp AT_SIGN       &kp EXCL                &kp LEFT_BRACE        &kp F7      &kp F8     &kp F9     &kp F10   &kp RIGHT_BRACE        &kp N1              &kp N2            &kp N3             &kp DOUBLE_QUOTES  &kp N0
+                                                 &trans            &trans                  &kp CAPS              &kp DELETE  &kp SPACE  &kp SPACE  &kp CAPS  &trans                 &trans              &trans
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp PG_UP PG_DN>;
+        };
     };
 
     conditional_layers {
