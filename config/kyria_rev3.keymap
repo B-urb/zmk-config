@@ -63,10 +63,10 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&lt 2 TAB  &kp Q        &kp W       &kp E       &kp R        &kp T                                                                                              &kp Y               &kp U        &kp I           &kp O       &kp P                &kp BSLH
-&kp CAPS   &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm RSHFT F  &layer_tap_bal 2 G                                                                                 &layer_tap_bal 2 H  &hm RSHFT J  &hm LEFT_GUI K  &hm RALT L  &hm RCTRL SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z        &kp X       &kp C       &kp V        &kp B               &kp LSHFT  &kp LSHFT               &mo 0                   &kp LSHFT           &kp N               &kp M        &kp COMMA       &kp DOT     &kp FSLH             &kp TILDE
-                                    &mo 4       &kp TAB      &kp ESCAPE          &kp BSPC   &layer_tap_bal 3 SPACE  &layer_tap_bal 3 SPACE  &mt CAPSLOCK ENTER  &lt 2 TAB           &kp BSPC     &kp RALT
+&lt 2 TAB  &kp Q       &kp W       &kp E        &kp R        &kp T                                                                                              &kp Y               &kp U        &kp I        &kp O       &kp P               &kp BSLH
+&kp CAPS   &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm RSHFT F  &layer_tap_bal 2 G                                                                                 &layer_tap_bal 2 H  &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm LGUI SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z       &kp X       &kp C        &kp V        &kp B               &kp LSHFT  &kp LSHFT               &mo 0                   &kp LSHFT           &kp N               &kp M        &kp COMMA    &kp DOT     &kp FSLH            &kp TILDE
+                                   &mo 4        &kp TAB      &kp ESCAPE          &kp BSPC   &layer_tap_bal 3 SPACE  &layer_tap_bal 3 SPACE  &mt CAPSLOCK ENTER  &lt 2 TAB           &kp BSPC     &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -85,9 +85,9 @@
 
         upper {
             bindings = <
-&kp F1          &kp F2           &kp F3            &kp F4             &kp F5                &kp F6                                                  &kp F7          &kp F8        &kp F9        &kp F10    &kp F11    &kp F12
-&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN      &kp RIGHT  &trans     &trans
-&kp RSHFT       &kp LCTRL        &kp LALT          &kp LEFT_GUI       &trans                &capswordminus         &trans   &trans  &trans  &trans  &trans          &trans        &kp LEFT_GUI  &kp RALT   &kp RCTRL  &kp RSHFT
+&kp F1          &kp F2           &kp F3            &kp F4             &kp F5                &kp F6                                                  &kp F7          &kp F8        &kp F9     &kp F10    &kp F11   &kp F12
+&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN   &kp RIGHT  &trans    &trans
+&kp RSHFT       &kp LEFT_GUI     &kp LALT          &kp RCTRL          &trans                &capswordminus         &trans   &trans  &trans  &trans  &trans          &trans        &kp RCTRL  &kp RALT   &kp RGUI  &kp RSHFT
                                                    &trans             &trans                &trans                 &kp DEL  &trans  &trans  &trans  &trans          &trans        &trans
             >;
 
@@ -97,10 +97,10 @@
         layer_5 {
             label = "lower_new";
             bindings = <
-&kp TAB  &kp UNDERSCORE          &kp MINUS       &kp ASTERISK      &kp AMPERSAND           &kp LBKT                                                          &kp RBKT               &kp N7              &kp N8            &kp N9             &kp PLUS           &kp GRAVE
-&trans   &hm LEFT_CONTROL EQUAL  &hm LALT CARET  &hm LCMD PERCENT  &hm RIGHT_SHIFT DOLLAR  &kp LEFT_PARENTHESIS                                              &kp RIGHT_PARENTHESIS  &hm RSHFT NUMBER_4  &hm RIGHT_GUI N5  &hm RALT NUMBER_6  &hm RCTRL N0       &kp SQT
-&kp N0   &kp DOUBLE_QUOTES       &kp HASH        &kp AT_SIGN       &kp EXCL                &kp LEFT_BRACE        &kp F7      &kp F8     &kp F9     &kp F10   &kp RIGHT_BRACE        &kp N1              &kp N2            &kp N3             &kp DOUBLE_QUOTES  &kp N0
-                                                 &trans            &trans                  &kp CAPS              &kp DELETE  &kp SPACE  &kp SPACE  &kp CAPS  &trans                 &trans              &trans
+&kp TAB  &kp UNDERSCORE     &kp MINUS       &kp ASTERISK       &kp AMPERSAND           &kp LBKT                                                          &kp RBKT               &kp N7              &kp N8        &kp N9             &kp PLUS           &kp GRAVE
+&trans   &hm LGUI EQUAL     &hm LALT CARET  &hm LCTRL PERCENT  &hm RIGHT_SHIFT DOLLAR  &kp LEFT_PARENTHESIS                                              &kp RIGHT_PARENTHESIS  &hm RSHFT NUMBER_4  &hm RCTRL N5  &hm RALT NUMBER_6  &hm RIGHT_GUI N0   &kp SQT
+&kp N0   &kp DOUBLE_QUOTES  &kp HASH        &kp AT_SIGN        &kp EXCL                &kp LEFT_BRACE        &kp F7      &kp F8     &kp F9     &kp F10   &kp RIGHT_BRACE        &kp N1              &kp N2        &kp N3             &kp DOUBLE_QUOTES  &kp N0
+                                            &trans             &trans                  &kp CAPS              &kp DELETE  &kp SPACE  &kp SPACE  &kp CAPS  &trans                 &trans              &trans
             >;
 
             sensor-bindings =
