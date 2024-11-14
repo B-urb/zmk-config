@@ -17,10 +17,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <130>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
         };
 
         capswordminus: capswordminus {
@@ -36,8 +36,8 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <300>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <130>;
         };
