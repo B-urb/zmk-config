@@ -53,7 +53,7 @@
 
         escaper {
             bindings = <&kp ESCAPE>;
-            key-positions = <15 20>;
+            key-positions = <28 35>;
         };
     };
 
