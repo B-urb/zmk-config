@@ -15,9 +15,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <70>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <80>;
             flavor = "tap-preferred";
         };
 
@@ -88,7 +88,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp CAPS  &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm RSHFT F  &hm_layer 2 G  &hm_layer 2 H  &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm LGUI SEMICOLON  &kp SQT  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp TAB  &kp BSPC  &layer_bal 3 SPACE  &lt 1 ENTER  &kp ESCAPE
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp CAPS  &hm LGUI A  &hm LALT S  &hm LCTRL D  &kp F  &hm_layer 2 G  &hm_layer 2 H  &kp J  &hm RCTRL K  &hm RALT L  &hm LGUI SEMICOLON  &kp SQT  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp TAB  &hm_layer 1 BACKSPACE  &layer_bal 3 SPACE  &kp RSHFT  &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -104,7 +104,7 @@
 
         upper {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &trans  &trans  &kp RSHFT  &kp RGUI  &kp LALT  &kp LCTRL  &kp RIGHT_SHIFT  &capswordus  &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RALT  &kp RGUI  &kp RSHFT  &trans  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp LEFT_BRACE  &kp RGUI  &kp LALT  &kp LCTRL  &kp ENTER  &kp RIGHT_PARENTHESIS  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &trans  &trans  &kp RSHFT  &kp RGUI  &kp LALT  &kp LCTRL  &kp RIGHT_SHIFT  &capswordus  &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RALT  &kp RGUI  &kp RSHFT  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "upper";
@@ -113,7 +113,7 @@
         layer_5 {
             label = "lower_new";
             bindings = <
-&kp TAB  &kp UNDER  &kp MINUS  &kp ASTERISK  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N7  &kp N8  &kp N9  &kp PLUS  &kp GRAVE  &trans  &hm LGUI EQUAL  &hm LALT CARET  &hm LCTRL PERCENT  &hm RSHFT DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &hm RSHFT NUMBER_4  &hm RCTRL N5  &hm RALT NUMBER_6  &hm LGUI N0  &kp SQT  &kp N0  &kp DOUBLE_QUOTES  &kp HASH  &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOUBLE_QUOTES  &kp N0  &trans  &kp DELETE  &trans  &kp CAPS  &trans
+&kp TAB  &kp UNDER  &kp MINUS  &kp ASTERISK  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N7  &kp N8  &kp N9  &kp PLUS  &kp GRAVE  &trans  &hm LGUI EQUAL  &hm LALT CARET  &hm LCTRL PERCENT  &kp SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &hm RCTRL N5  &hm RALT NUMBER_6  &hm LGUI N0  &kp SQT  &kp N0  &kp DOUBLE_QUOTES  &kp HASH  &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOUBLE_QUOTES  &kp N0  &trans  &kp DELETE  &trans  &trans  &trans
             >;
 
             sensor-bindings =
