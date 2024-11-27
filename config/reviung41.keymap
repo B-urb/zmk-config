@@ -88,7 +88,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp CAPS  &hm LGUI A  &hm LALT S  &hm LCTRL D  &kp F  &hm_layer 2 G  &hm_layer 2 H  &kp J  &hm RCTRL K  &hm RALT L  &hm LGUI SEMICOLON  &kp SQT  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp TAB  &hm_layer 1 BACKSPACE  &layer_bal 3 SPACE  &kp RSHFT  &kp ESCAPE
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp CAPS  &hm LGUI A  &hm LALT S  &hm LCTRL D  &kp F  &hm_layer 2 G  &hm_layer 2 H  &kp J  &hm RCTRL K  &hm RALT L  &hm LGUI SEMICOLON  &kp SQT  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp TAB  &hm_layer 2 BACKSPACE  &layer_bal 3 SPACE  &kp RSHFT  &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -110,8 +110,8 @@
             label = "upper";
         };
 
-        layer_5 {
-            label = "lower_new";
+        num {
+            label = "num";
             bindings = <
 &kp TAB  &kp UNDER  &kp MINUS  &kp ASTERISK  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N7  &kp N8  &kp N9  &kp PLUS  &kp GRAVE  &trans  &hm LGUI EQUAL  &hm LALT CARET  &hm LCTRL PERCENT  &kp SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &hm RCTRL N5  &hm RALT NUMBER_6  &hm LGUI N0  &kp SQT  &kp N0  &kp DOUBLE_QUOTES  &kp HASH  &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOUBLE_QUOTES  &kp N0  &trans  &kp DELETE  &trans  &trans  &trans
             >;
