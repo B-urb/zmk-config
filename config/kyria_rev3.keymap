@@ -68,24 +68,27 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&lt 2 TAB  &kp Q       &kp W       &kp E        &kp R        &kp T                                                                                            &kp Y               &kp U        &kp I        &kp O       &kp P               &kp BSLH
-&kp CAPS   &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm RSHFT F  &layer_tap_bal 2 G                                                                               &layer_tap_bal 2 H  &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm LGUI SEMICOLON  &kp SQT
-&none      &kp Z       &kp X       &kp C        &kp V        &kp B               &kp LSHFT  &kp LSHFT               &mo 0                 &kp LSHFT           &kp N               &kp M        &kp COMMA    &kp DOT     &kp FSLH            &kp TILDE
-                                   &mo 4        &kp TAB      &kp ESCAPE          &kp BSPC   &layer_tap_bal 3 SPACE  &layer_tap_bal 3 TAB  &mt CAPSLOCK ENTER  &lt 2 TAB           &kp BSPC     &kp RALT
+&lt 2 TAB  &kp Q       &kp W       &kp E        &kp R    &kp T                                                                        &kp Y               &kp U     &kp I        &kp O       &kp P               &kp BSLH
+&kp CAPS   &hm LGUI A  &hm LALT S  &hm LCTRL D  &kp F    &layer_tap_bal 2 G                                                           &layer_tap_bal 2 H  &kp J     &hm RCTRL K  &hm RALT L  &hm LGUI SEMICOLON  &kp SQT
+&none      &kp Z       &kp X       &kp C        &kp V    &kp B               &kp LSHFT  &kp LSHFT               &mo 0      &kp LSHFT  &kp N               &kp M     &kp COMMA    &kp DOT     &kp FSLH            &kp TILDE
+                                   &none        &kp TAB  &kp ESCAPE          &kp BSPC   &layer_tap_bal 1 SPACE  &kp ENTER  &kp RSHFT  &lt 2 TAB           &kp BSPC  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        nav {
+        layer_num {
+            label = "layer_num";
             bindings = <
-&trans            &kp RG(RS(Q))  &kp RG(E)  &kp RG(E)        &kp RG(R)  &trans                                           &kp LC(LA(LG(LS(N1))))    &kp LC(LA(LG(LS(N2))))    &kp LC(LA(LG(LS(N3))))  &kp LS(LC(LA(LG(N4))))     &kp LC(LA(LG(LS(N5))))  &kp LS(LC(LA(LG(N6))))
-&kp LS(LC(LALT))  &kp LC(LSHFT)  &kp RG(S)  &kp RC(TAB)      &kp RG(F)  &kp RG(TAB)                                      &kp LC(LA(LG(LS(H))))     &kp LC(LA(LG(LS(J))))     &kp LC(LA(LG(LS(K))))   &kp LC(LA(LG(LS(L))))      &kp LC(LSHFT)           &kp LCTRL
-&trans            &trans         &trans     &kp RC(RS(TAB))  &trans     &kp RG(RS(TAB))  &trans  &trans  &trans  &trans  &kp LC(LA(LG(LS(LEFT))))  &kp LC(LA(LG(LS(DOWN))))  &kp LC(LA(LG(LS(UP))))  &kp LC(LA(LG(LS(RIGHT))))  &trans                  &kp RSHFT
-                                            &trans           &trans     &trans           &trans  &trans  &trans  &trans  &trans                    &trans                    &trans
+&kp TAB  &kp UNDERSCORE     &kp MINUS       &kp ASTERISK       &kp AMPERSAND  &kp LBKT                                                   &kp RBKT               &kp N7              &kp N8        &kp N9             &kp PLUS           &kp GRAVE
+&trans   &hm LGUI EQUAL     &hm LALT CARET  &hm LCTRL PERCENT  &kp SQT        &kp LEFT_PARENTHESIS                                       &kp RIGHT_PARENTHESIS  &hm RSHFT NUMBER_4  &hm RCTRL N5  &hm RALT NUMBER_6  &hm LGUI N0        &kp SQT
+&kp N0   &kp DOUBLE_QUOTES  &kp HASH        &kp AT_SIGN        &kp EXCL       &kp LEFT_BRACE        &kp F7      &kp F8  &kp F9  &kp F10  &kp RIGHT_BRACE        &kp N1              &kp N2        &kp N3             &kp DOUBLE_QUOTES  &kp N0
+                                            &trans             &trans         &trans                &kp DELETE  &trans  &trans  &trans   &trans                 &trans              &trans
             >;
 
-            label = "nav";
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         upper {
@@ -99,20 +102,6 @@
             label = "upper";
         };
 
-        layer_5 {
-            label = "lower_new";
-            bindings = <
-&kp TAB  &kp UNDERSCORE     &kp MINUS       &kp ASTERISK       &kp AMPERSAND           &kp LBKT                                                          &kp RBKT               &kp N7              &kp N8        &kp N9             &kp PLUS           &kp GRAVE
-&trans   &hm LGUI EQUAL     &hm LALT CARET  &hm LCTRL PERCENT  &hm RIGHT_SHIFT DOLLAR  &kp LEFT_PARENTHESIS                                              &kp RIGHT_PARENTHESIS  &hm RSHFT NUMBER_4  &hm RCTRL N5  &hm RALT NUMBER_6  &hm LGUI N0        &kp SQT
-&kp N0   &kp DOUBLE_QUOTES  &kp HASH        &kp AT_SIGN        &kp EXCL                &kp LEFT_BRACE        &kp F7      &kp F8     &kp F9     &kp F10   &kp RIGHT_BRACE        &kp N1              &kp N2        &kp N3             &kp DOUBLE_QUOTES  &kp N0
-                                            &trans             &trans                  &kp CAPS              &kp DELETE  &kp SPACE  &kp SPACE  &kp CAPS  &trans                 &trans              &trans
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp PG_UP PG_DN>;
-        };
-
         control {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans      &trans        &trans  &trans  &bt BT_CLR_ALL
@@ -120,6 +109,17 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_NXT  &out OUT_TOG  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans
             >;
+        };
+
+        nav {
+            bindings = <
+&trans            &kp RG(RS(Q))  &kp RG(E)  &kp RG(E)        &kp RG(R)  &trans                                           &kp LC(LA(LG(LS(N1))))    &kp LC(LA(LG(LS(N2))))    &kp LC(LA(LG(LS(N3))))  &kp LS(LC(LA(LG(N4))))     &kp LC(LA(LG(LS(N5))))  &kp LS(LC(LA(LG(N6))))
+&kp LS(LC(LALT))  &kp LC(LSHFT)  &kp RG(S)  &kp RC(TAB)      &kp RG(F)  &kp RG(TAB)                                      &kp LC(LA(LG(LS(H))))     &kp LC(LA(LG(LS(J))))     &kp LC(LA(LG(LS(K))))   &kp LC(LA(LG(LS(L))))      &kp LC(LSHFT)           &kp LCTRL
+&trans            &trans         &trans     &kp RC(RS(TAB))  &trans     &kp RG(RS(TAB))  &trans  &trans  &trans  &trans  &kp LC(LA(LG(LS(LEFT))))  &kp LC(LA(LG(LS(DOWN))))  &kp LC(LA(LG(LS(UP))))  &kp LC(LA(LG(LS(RIGHT))))  &trans                  &kp RSHFT
+                                            &trans           &trans     &trans           &trans  &trans  &trans  &trans  &trans                    &trans                    &trans
+            >;
+
+            label = "nav";
         };
     };
 
