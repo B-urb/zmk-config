@@ -98,7 +98,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp CAPS  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &hm_layer 2 G  &hm_layer 2 H  &hm RCTRL J  &hm RALT K  &hm RALT L  &kp SEMICOLON  &kp SQT  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp TAB  &kp BACKSPACE  &layer_bal 3 SPACE  &kp RSHFT  &kp RET
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp CAPS  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &hm_layer 2 G  &hm_layer 2 H  &hm RCTRL J  &hm LGUI K  &hm RALT L  &kp SEMICOLON  &kp SQT  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp TAB  &kp BACKSPACE  &layer_bal 3 SPACE  &kp RSHFT  &kp RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -123,7 +123,7 @@
         num {
             label = "num";
             bindings = <
-&kp TAB  &kp UNDER  &kp MINUS  &kp ASTERISK  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N7  &kp N8  &kp N9  &kp PLUS  &kp GRAVE  &trans  &hm LGUI EQUAL  &hm LALT CARET  &hm LCTRL PERCENT  &kp SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &hm RCTRL N5  &hm RALT NUMBER_6  &hm LGUI N0  &kp SQT  &kp N0  &kp DOUBLE_QUOTES  &kp HASH  &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOUBLE_QUOTES  &kp TILDE  &trans  &kp DELETE  &trans  &trans  &trans
+&kp TAB  &kp UNDER  &kp MINUS  &kp ASTERISK  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N7  &kp N8  &kp N9  &kp PLUS  &kp GRAVE  &trans  &kp EQUAL  &hm LALT CARET  &hm LGUI PERCENT  &hm LCTRL SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &hm RCTRL NUMBER_4  &hm LGUI N5  &hm RALT NUMBER_6  &kp N0  &kp SQT  &kp N0  &kp DOUBLE_QUOTES  &kp HASH  &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOUBLE_QUOTES  &kp TILDE  &trans  &kp DELETE  &trans  &trans  &trans
             >;
 
             sensor-bindings =
