@@ -99,6 +99,11 @@
 
         homerow {
             bindings = <&kp RG(RS(SPACE))>;
+            key-positions = <15 20>;
+        };
+
+        mouse {
+            bindings = <&tog 5>;
             key-positions = <3 8>;
         };
     };
@@ -114,7 +119,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &mt LA(LC(LG(LSHFT))) ESC  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &hm_layer 2 G  &hm_layer 2 H  &hm RCTRL J  &hm LGUI K  &hm RALT L  &kp SEMICOLON  &kp SQT  &tog 5  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp TAB  &kp BACKSPACE  &layer_bal 3 SPACE  &kp RSHFT  &kp RET
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &mt LA(LC(LG(LSHFT))) ESC  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &hm_layer 2 G  &hm_layer 2 H  &hm RCTRL J  &hm LGUI K  &hm RALT L  &kp SEMICOLON  &kp SQT  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp TAB  &kp BACKSPACE  &layer_bal 3 SPACE  &kp RSHFT  &kp RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -155,7 +160,7 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_UP  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &msc SCRL_UP  &trans  &trans  &msc SCRL_UP  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_UP  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN  &trans  &mmv MOVE_X 400  &mmv MOVE_Y 400  &mmv MOVE_Y -400  &mmv MOVE_X -400  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
             >;
         };
     };
