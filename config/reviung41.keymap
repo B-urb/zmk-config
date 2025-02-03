@@ -144,7 +144,7 @@
         num {
             label = "num";
             bindings = <
-&none  &kp UNDER  &kp MINUS  &kp PLUS  &kp GRAVE  &kp DELETE  &kp BACKSPACE  &kp N7  &kp N8  &kp N9  &kp PLUS  &none  &trans  &kp EQUAL  &hm LALT CARET  &hm LGUI PERCENT  &hm LCTRL SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &hm RCTRL NUMBER_4  &hm LGUI N5  &hm RALT NUMBER_6  &kp SQT  &none  &none  &kp DOUBLE_QUOTES  &kp HASH  &kp AT_SIGN  &kp BACKSLASH  &kp LEFT_BRACKET  &kp LEFT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &none  &trans  &trans  &trans  &trans  &trans
+&none  &kp UNDER  &kp MINUS  &kp PLUS  &kp GRAVE  &kp DELETE  &kp BACKSPACE  &kp N7  &kp N8  &kp N9  &kp PLUS  &none  &trans  &kp EQUAL  &hm LALT CARET  &hm LGUI PERCENT  &hm LCTRL SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &hm RCTRL NUMBER_4  &hm LGUI N5  &hm RALT NUMBER_6  &kp SQT  &none  &none  &kp DOUBLE_QUOTES  &kp HASH  &kp AT_SIGN  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &none  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
