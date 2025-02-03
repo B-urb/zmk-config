@@ -92,11 +92,6 @@
             key-positions = <28 31>;
         };
 
-        entercomb {
-            bindings = <&kp ENTER>;
-            key-positions = <37 39>;
-        };
-
         homerow {
             bindings = <&kp RG(RS(SPACE))>;
             key-positions = <15 20>;
