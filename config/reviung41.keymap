@@ -101,6 +101,11 @@
             bindings = <&tog 4>;
             key-positions = <1 10>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
