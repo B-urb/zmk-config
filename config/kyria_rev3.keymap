@@ -89,10 +89,10 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&trans  &kp Q  &kp W       &kp E       &kp R        &kp T                                                             &kp Y               &kp U        &kp I       &kp O       &kp P          &trans
-&trans  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &layer_tap_bal 2 G                                                &layer_tap_bal 2 H  &hm RCTRL J  &hm LGUI K  &hm RALT L  &kp SEMICOLON  &trans
-&none   &kp Z  &kp X       &kp C       &kp V        &kp B               &kp LSHFT  &kp LSHFT  &mo 0        &kp LSHFT  &kp N               &kp M        &kp COMMA   &kp DOT     &kp FSLH       &trans
-                           &none       &mo 3        &kp TAB             &mo 1      &kp SPACE  &lt 1 ENTER  &kp LSHFT  &lt 2 TAB           &kp BSPC     &kp RALT
+&trans  &kp Q  &kp W       &kp E       &kp R        &kp T                                                       &kp Y               &kp U        &kp I       &kp O       &kp P          &trans
+&trans  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &layer_tap_bal 2 G                                          &layer_tap_bal 2 H  &hm RCTRL J  &hm LGUI K  &hm RALT L  &kp SEMICOLON  &trans
+&none   &kp Z  &kp X       &kp C       &kp V        &kp B               &kp LSHFT  &kp LSHFT  &mo 0  &kp LSHFT  &kp N               &kp M        &kp COMMA   &kp DOT     &kp FSLH       &trans
+                           &none       &mo 3        &kp TAB             &kp SPACE  &mo 1      &mo 1  &kp LSHFT  &lt 2 TAB           &kp BSPC     &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -101,10 +101,10 @@
         layer_num {
             label = "layer_num";
             bindings = <
-&trans  &kp UNDERSCORE     &kp MINUS       &kp PLUS          &kp GRAVE      &kp DELETE                                             &kp BACKSPACE          &kp N7              &kp N8       &kp N9             &kp PLUS          &trans
-&trans  &hm LGUI EQUAL     &hm LALT CARET  &hm LGUI PERCENT  &hm LCTRL SQT  &kp LEFT_PARENTHESIS                                   &kp RIGHT_PARENTHESIS  &hm RCTRL NUMBER_4  &hm RGUI N5  &hm RALT NUMBER_6  &kp SINGLE_QUOTE  &trans
-&trans  &kp DOUBLE_QUOTES  &kp HASH        &kp AT_SIGN       &kp BACKSLASH  &kp LEFT_BRACKET      &kp F7  &kp F8  &kp F9  &kp F10  &kp RIGHT_BRACKET      &kp N1              &kp N2       &kp N3             &kp N0            &trans
-                                           &trans            &trans         &trans                &trans  &trans  &trans  &trans   &trans                 &trans              &trans
+&trans  &kp UNDERSCORE     &kp PLUS         &kp MINUS        &kp EQUAL            &kp GRAVE                                              &kp BACKSLASH          &kp N7              &kp N8       &kp N9             &kp PLUS          &trans
+&trans  &hm LGUI TAB       &hm LALT ESCAPE  &hm LGUI DELETE  &hm LCTRL BACKSPACE  &kp LEFT_PARENTHESIS                                   &kp RIGHT_PARENTHESIS  &hm RCTRL NUMBER_4  &hm RGUI N5  &hm RALT NUMBER_6  &kp SINGLE_QUOTE  &trans
+&trans  &kp DOUBLE_QUOTES  &kp HASH         &kp AT_SIGN      &kp ENTER            &kp LEFT_BRACKET      &kp F7  &kp F8  &kp F9  &kp F10  &kp RIGHT_BRACKET      &kp N1              &kp N2       &kp N3             &kp N0            &trans
+                                            &trans           &trans               &trans                &trans  &trans  &trans  &trans   &trans                 &trans              &trans
             >;
 
             sensor-bindings =
