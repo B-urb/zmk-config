@@ -62,6 +62,23 @@
             require-prior-idle-ms = <100>;
             flavor = "tap-preferred";
         };
+
+        hold_lt: hold_lt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_LT";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+        };
+
+        media_td: media_td {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MEDIA_TD";
+            #binding-cells = <0>;
+            bindings = <&kp C_PP>, <&kp C_NEXT>, <&kp C_PREVIOUS>;
+        };
     };
 
     combos {
@@ -69,7 +86,7 @@
 
         cwcombo {
             bindings = <&caps_word>;
-            key-positions = <16 19>;
+            key-positions = <4 7>;
         };
 
         lp {
@@ -89,12 +106,12 @@
 
         esccomb {
             bindings = <&kp ESCAPE>;
-            key-positions = <28 31>;
+            key-positions = <16 19>;
         };
 
         homerow {
             bindings = <&kp RG(RS(SPACE))>;
-            key-positions = <15 20>;
+            key-positions = <28 31>;
         };
 
         mouse {
@@ -105,6 +122,11 @@
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <6 7>;
+        };
+
+        entercomb {
+            bindings = <&kp ENTER>;
+            key-positions = <20 15>;
         };
     };
 
@@ -119,7 +141,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &mt LA(LC(LG(LSHFT))) ESC  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &hm_layer 2 G  &hm_layer 2 H  &hm RCTRL J  &hm LGUI K  &hm RALT L  &kp SEMICOLON  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp TAB  &mo 3  &layer_bal 3 SPACE  &kp LSHFT  &kp RET
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &trans  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &hm_layer 2 G  &hm_layer 2 H  &hm RCTRL J  &hm LGUI K  &hm RALT L  &kp SEMICOLON  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp ESCAPE  &kp SPACE  &hold_lt 3 TAB  &hold_lt 3 BACKSPACE  &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -144,7 +166,7 @@
         num {
             label = "num";
             bindings = <
-&none  &kp UNDER  &kp MINUS  &kp PLUS  &kp GRAVE  &kp DELETE  &kp BACKSPACE  &kp N7  &kp N8  &kp N9  &kp DOUBLE_QUOTES  &none  &trans  &kp EQUAL  &hm LALT CARET  &hm LGUI PERCENT  &hm LCTRL SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &hm RCTRL NUMBER_4  &hm LGUI N5  &hm RALT NUMBER_6  &kp SQT  &none  &none  &kp DOUBLE_QUOTES  &kp HASH  &kp AT_SIGN  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &none  &trans  &trans  &trans  &trans  &trans
+&none  &kp UNDER  &kp MINUS  &kp GRAVE  &kp BACKSLASH  &kp DELETE  &kp BACKSPACE  &kp N7  &kp N8  &kp N9  &kp DOUBLE_QUOTES  &none  &trans  &kp EQUAL  &hm LALT CARET  &hm LGUI PLUS  &hm LCTRL MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACKET  &hm RCTRL NUMBER_4  &hm LGUI N5  &hm RALT NUMBER_6  &kp SQT  &none  &none  &kp DOUBLE_QUOTES  &kp HASH  &kp AT_SIGN  &kp BACKSLASH  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &none  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
