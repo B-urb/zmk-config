@@ -141,7 +141,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &trans  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &hm_layer 2 G  &hm_layer 2 H  &hm RCTRL J  &hm LGUI K  &hm RALT L  &kp SEMICOLON  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp ESCAPE  &hold_lt 3 TAB  &kp TAB  &kp LEFT_SHIFT  &hold_lt 3 BACKSPACE
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &trans  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &hm_layer 2 G  &hm_layer 2 H  &hm RCTRL J  &hm LGUI K  &hm RALT L  &kp SEMICOLON  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp ESCAPE  &hold_lt 3 TAB  &hold_lt 3 SPACE  &kp LEFT_SHIFT  &hold_lt 3 BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
