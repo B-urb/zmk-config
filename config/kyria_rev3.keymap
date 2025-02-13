@@ -128,10 +128,10 @@
         layer_num {
             label = "layer_num";
             bindings = <
-&trans  &kp UNDERSCORE     &kp PLUS        &kp GRAVE       &kp BACKSLASH    &kp LEFT_BRACE                                             &kp RIGHT_BRACE    &kp N7              &kp N8       &kp N9             &kp PLUS          &trans
-&trans  &hm LGUI PLUS      &hm LALT UNDER  &hm LGUI EQUAL  &hm LCTRL MINUS  &kp LEFT_PARENTHESIS                                       &kp LEFT_BRACKET   &hm RCTRL NUMBER_4  &hm RGUI N5  &hm RALT NUMBER_6  &kp SINGLE_QUOTE  &trans
-&trans  &kp DOUBLE_QUOTES  &kp HASH        &kp AT_SIGN     &kp ENTER        &kp RIGHT_PARENTHESIS  &kp F7     &kp F8  &kp F9  &kp F10  &kp RIGHT_BRACKET  &kp N1              &kp N2       &kp N3             &kp N0            &trans
-                                           &trans          &trans           &kp DEL                &kp ENTER  &trans  &trans  &trans   &trans             &trans              &trans
+&trans  &kp UNDERSCORE     &kp PLUS         &kp GRAVE       &kp BACKSLASH    &kp LEFT_BRACE                                             &kp RIGHT_BRACE    &kp N7              &kp N8       &kp N9             &kp DOUBLE_QUOTES  &trans
+&trans  &hm LGUI CARET     &hm LALT DOLLAR  &hm LGUI EQUAL  &hm LCTRL MINUS  &kp LEFT_PARENTHESIS                                       &kp LEFT_BRACKET   &hm RCTRL NUMBER_4  &hm RGUI N5  &hm RALT NUMBER_6  &kp SINGLE_QUOTE   &trans
+&trans  &kp DOUBLE_QUOTES  &kp HASH         &kp AT_SIGN     &kp ENTER        &kp RIGHT_PARENTHESIS  &kp F7     &kp F8  &kp F9  &kp F10  &kp RIGHT_BRACKET  &kp N1              &kp N2       &kp N3             &kp N0             &trans
+                                            &trans          &trans           &kp DEL                &kp ENTER  &trans  &trans  &trans   &trans             &trans              &trans
             >;
 
             sensor-bindings =
