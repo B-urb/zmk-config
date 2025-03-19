@@ -82,19 +82,9 @@
             key-positions = <10 1>;
         };
 
-        backspacecombo {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <6 7>;
-        };
-
         homerow {
             bindings = <&kp LG(LS(SPACE))>;
             key-positions = <35 28>;
-        };
-
-        tabs {
-            bindings = <&kp TAB>;
-            key-positions = <13 14>;
         };
 
         entermenter {
