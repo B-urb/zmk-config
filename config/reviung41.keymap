@@ -10,8 +10,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 
 &mmv {
     acceleration-exponent = <4>;
@@ -28,7 +26,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <200>;
-            require-prior-idle-ms = <80>;
+            require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
         };
 
@@ -117,11 +115,6 @@
         mouse {
             bindings = <&tog 4>;
             key-positions = <1 10>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <6 7>;
         };
 
         entercomb {
