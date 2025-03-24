@@ -107,7 +107,7 @@
 &trans  &kp Q  &kp W       &kp E       &kp R        &kp T                                                                           &kp Y               &kp U        &kp I       &kp O       &kp P          &trans
 &trans  &kp A  &hm LALT S  &hm LGUI D  &hm LCTRL F  &layer_tap_bal 2 G                                                              &layer_tap_bal 2 H  &hm RCTRL J  &hm LGUI K  &hm RALT L  &kp SEMICOLON  &trans
 &none   &kp Z  &kp X       &kp C       &kp V        &kp B               &kp LSHFT  &kp LSHFT       &mo 0                 &kp LSHFT  &kp N               &kp M        &kp COMMA   &kp DOT     &kp FSLH       &trans
-                           &none       &mo 3        &kp ESCAPE          &kp SPACE  &lt_hold 1 TAB  &lt_hold 1 BACKSPACE  &kp LSHFT  &lt 2 TAB           &kp BSPC     &kp RALT
+                           &none       &mo 3        &kp ESCAPE          &kp SPACE  &lt_hold 1 TAB  &lt_hold 1 BACKSPACE  &kp LSHFT  &kp ENTER           &kp BSPC     &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
