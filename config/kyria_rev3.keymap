@@ -90,6 +90,8 @@
         entermenter {
             bindings = <&kp ENTER>;
             key-positions = <15 20>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <125>;
         };
     };
 
