@@ -127,7 +127,7 @@
             bindings = <
 &trans  &kp Q                    &kp W  &kp E  &kp R  &kp T                                                                                                                                    &kp Y                      &kp U  &kp I      &kp O    &kp P                  &trans
 &trans  &kp A                    &kp S  &kp D  &kp F  &kp G                                                                                                                                    &kp H                      &kp J  &kp K      &kp L    &kp SEMICOLON          &trans
-&none   &thumb_tap Z LEFT_SHIFT  &kp X  &kp C  &kp V  &kp B           &none                        &none         &none                              &none                                      &kp N                      &kp M  &kp COMMA  &kp DOT  &hm RIGHT_SHIFT SLASH  &trans
+&none   &thumb_tap LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B           &none                        &none         &none                              &none                                      &kp N                      &kp M  &kp COMMA  &kp DOT  &hm RIGHT_SHIFT SLASH  &trans
                                         &none  &none  &lt_hold 2 TAB  &thumb_tap LEFT_SHIFT SPACE  &lt 1 ESCAPE  &thumb_tap LEFT_CONTROL BACKSPACE  &thumb_tab_sticky LEFT_COMMAND LEFT_SHIFT  &thumb_tap LEFT_ALT ENTER  &none  &none
             >;
 
