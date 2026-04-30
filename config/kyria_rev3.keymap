@@ -125,10 +125,10 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&trans  &kp Q                    &kp W  &kp E  &kp R  &kp T                                                                                                                             &kp Y                      &kp U  &kp I      &kp O    &kp P                  &trans
-&trans  &kp A                    &kp S  &kp D  &kp F  &kp G                                                                                                                             &kp H                      &kp J  &kp K      &kp L    &kp SEMICOLON          &trans
-&none   &thumb_tap Z LEFT_SHIFT  &kp X  &kp C  &kp V  &kp B           &none                   &none       &none                              &none                                      &kp N                      &kp M  &kp COMMA  &kp DOT  &hm RIGHT_SHIFT SLASH  &trans
-                                        &none  &none  &lt_hold 2 TAB  &layer_tap_bal 1 SPACE  &kp ESCAPE  &thumb_tap LEFT_CONTROL BACKSPACE  &thumb_tab_sticky LEFT_COMMAND LEFT_SHIFT  &thumb_tap LEFT_ALT ENTER  &none  &none
+&trans  &kp Q                    &kp W  &kp E  &kp R  &kp T                                                                                                                                  &kp Y                      &kp U  &kp I      &kp O    &kp P                  &trans
+&trans  &kp A                    &kp S  &kp D  &kp F  &kp G                                                                                                                                  &kp H                      &kp J  &kp K      &kp L    &kp SEMICOLON          &trans
+&none   &thumb_tap Z LEFT_SHIFT  &kp X  &kp C  &kp V  &kp B           &none                        &none       &none                              &none                                      &kp N                      &kp M  &kp COMMA  &kp DOT  &hm RIGHT_SHIFT SLASH  &trans
+                                        &none  &none  &lt_hold 2 TAB  &thumb_tap LEFT_SHIFT SPACE  &kp ESCAPE  &thumb_tap LEFT_CONTROL BACKSPACE  &thumb_tab_sticky LEFT_COMMAND LEFT_SHIFT  &thumb_tap LEFT_ALT ENTER  &none  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -137,10 +137,10 @@
         layer_num {
             label = "layer_num";
             bindings = <
-&trans  &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3    &kp NUMBER_4     &kp N5                                                   &kp NUMBER_6       &kp N7    &kp N8  &kp N9     &kp N0                      &trans
-&trans  &kp TILDE       &hm LALT DOLLAR  &hm LGUI EQUAL  &hm LCTRL MINUS  &kp LEFT_PARENTHESIS                                     &kp LEFT           &kp DOWN  &kp UP  &kp RIGHT  &kp SINGLE_QUOTE            &trans
-&trans  &kp LEFT_SHIFT  &kp SQT          &kp CARET       &kp DOLLAR       &kp LEFT_BRACKET      &none      &none   &none   &none   &kp RIGHT_BRACKET  &kp N1    &kp N2  &kp EQUAL  &hm RSHFT NON_US_BACKSLASH  &trans
-                                         &trans          &trans           &kp DEL               &kp ENTER  &trans  &trans  &trans  &trans             &trans    &trans
+&trans  &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3    &kp NUMBER_4     &kp N5                                               &kp NUMBER_6       &kp N7    &kp N8  &kp N9     &kp N0                      &trans
+&trans  &kp TILDE       &hm LALT DOLLAR  &hm LGUI EQUAL  &hm LCTRL MINUS  &kp LEFT_PARENTHESIS                                 &kp LEFT           &kp DOWN  &kp UP  &kp RIGHT  &kp SINGLE_QUOTE            &trans
+&trans  &kp LEFT_SHIFT  &kp SQT          &kp CARET       &kp DOLLAR       &kp LEFT_BRACKET      &none  &none   &none   &none   &kp RIGHT_BRACKET  &kp N1    &kp N2  &kp EQUAL  &hm RSHFT NON_US_BACKSLASH  &trans
+                                         &trans          &trans           &kp DEL               &none  &trans  &trans  &trans  &trans             &trans    &trans
             >;
 
             sensor-bindings =
