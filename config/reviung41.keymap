@@ -160,7 +160,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &trans  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &none  &none  &hm LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &hm RIGHT_SHIFT SLASH  &none  &kp ESCAPE  &thumb_tap LEFT_ALT SPACE  &hold_lt 1 TAB  &hold_lt 1 BACKSPACE  &thumb_tap_sticky LEFT_COMMAND LEFT_SHIFT
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &trans  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &none  &none  &hm LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &hm RIGHT_SHIFT SLASH  &none  &hold_lt 2 ESC  &thumb_tap LEFT_ALT SPACE  &hold_lt 1 TAB  &hold_lt 1 BACKSPACE  &thumb_tap_sticky LEFT_COMMAND LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
