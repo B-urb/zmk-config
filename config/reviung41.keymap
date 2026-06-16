@@ -110,9 +110,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             flavor = "balanced";
-            hold-trigger-key-positions = <6 7 8 9 10 11 23 35 34 30 18 19 20 22 21 33 31 32>;
+            hold-trigger-key-positions = <6 7 8 9 10 11 23 35 34 30 18 19 20 22 21 33 31 32 28 27>;
         };
 
         pinky_shift_r: pinky_shift_r {
@@ -121,7 +121,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             flavor = "balanced";
             hold-trigger-key-positions = <0 1 2 3 5 4 17 29 16 27 28 15 13 12 13 14 26 25 24>;
         };
@@ -191,7 +191,7 @@
         num {
             label = "num";
             bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &trans  &kp GRAVE  &none  &hm LGUI EQUAL  &hm LCTRL MINUS  &kp LEFT_PARENTHESIS  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &none  &none  &kp LSHFT  &kp SQT  &kp N1  &kp LEFT_PARENTHESIS  &kp LBKT  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp N0  &kp EQUAL  &pinky_shift_l RIGHT_SHIFT BACKSLASH  &none  &kp DEL  &trans  &trans  &trans  &trans
+&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &trans  &kp GRAVE  &none  &hm LGUI EQUAL  &hm LCTRL MINUS  &kp LEFT_PARENTHESIS  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &none  &none  &kp LSHFT  &kp SQT  &kp N1  &kp LEFT_PARENTHESIS  &kp LBKT  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp N0  &kp EQUAL  &pinky_shift_r RIGHT_SHIFT BACKSLASH  &none  &kp DEL  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
