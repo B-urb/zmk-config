@@ -103,6 +103,15 @@
             require-prior-idle-ms = <0>;
             flavor = "tap-preferred";
         };
+
+        pinky_shift: pinky_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "PINKY_SHIFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     combos {
@@ -160,7 +169,7 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &trans  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &none  &none  &hm LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &hm RIGHT_SHIFT SLASH  &none  &hold_lt 2 ESC  &thumb_tap LEFT_ALT SPACE  &hold_lt 1 TAB  &thumb_tap LCTRL BACKSPACE  &thumb_tap_sticky LEFT_COMMAND LEFT_SHIFT
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &trans  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &none  &none  &pinky_shift LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &pinky_shift RIGHT_SHIFT SLASH  &none  &hold_lt 2 ESC  &thumb_tap LEFT_ALT SPACE  &hold_lt 1 TAB  &thumb_tap LCTRL BACKSPACE  &thumb_tap_sticky LEFT_COMMAND LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -169,7 +178,7 @@
         num {
             label = "num";
             bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &trans  &kp GRAVE  &none  &hm LGUI EQUAL  &hm LCTRL MINUS  &kp LEFT_PARENTHESIS  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &none  &none  &kp LSHFT  &kp SQT  &kp N1  &kp LEFT_PARENTHESIS  &kp LBKT  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp N0  &kp EQUAL  &hm RIGHT_SHIFT BACKSLASH  &none  &kp DEL  &trans  &trans  &trans  &trans
+&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &trans  &kp GRAVE  &none  &hm LGUI EQUAL  &hm LCTRL MINUS  &kp LEFT_PARENTHESIS  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &none  &none  &kp LSHFT  &kp SQT  &kp N1  &kp LEFT_PARENTHESIS  &kp LBKT  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp N0  &kp EQUAL  &pinky_shift RIGHT_SHIFT BACKSLASH  &none  &kp DEL  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
